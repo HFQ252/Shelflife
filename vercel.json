@@ -12,7 +12,6 @@
       "dest": "server.js"
     }
   ],
-  "env": {
-    "NODE_ENV": "production"
-  }
+  "regions": ["hkg1"],  // 使用香港节点
+  "public": true
 }
