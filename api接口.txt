@@ -1,0 +1,15 @@
+GET    /api/products           # 获取所有商品
+GET    /api/products/:sku      # 获取单个商品
+POST   /api/products          # 添加商品
+PUT    /api/products/:sku     # 更新商品
+DELETE /api/products/:sku     # 删除商品
+
+GET    /api/records           # 获取库存记录
+GET    /api/records/expiring  # 获取临期商品
+POST   /api/records          # 添加库存记录
+DELETE /api/records/:sku/:date # 删除库存记录
+
+GET    /api/health           # 健康检查
+GET    /api/test            # 测试接口
+POST   /api/initialize-demo # 初始化示例数据
+GET    /api/stats           # 系统统计
